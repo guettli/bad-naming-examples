@@ -24,6 +24,14 @@ For most, "pre-commit" primarily refers to the **Git** pre-commit hooks.
 
 [kind](https://kind.sigs.k8s.io/) stands for "Kubernetes in Docker".
 
+
+Its name can be misleading due to its generality. Searching for "kind foo" might not yield the desired results.
+
+Furthermore, in the context of Kubernetes, the yaml manifests contain entries like "Kind: Pod", which is an entirely different concept.
+
+Grrr.
+
+
 # Related
 
 * [Thomas WOL: Working out Loud](https://github.com/guettli/wol)
@@ -31,12 +39,4 @@ For most, "pre-commit" primarily refers to the **Git** pre-commit hooks.
 # Feedback
 
 I love feedback and I love to hear from you. Just create an issue and tell me what's on your mind.
-
-
-
-Its name can be misleading due to its generality. Searching for "kind foo" might not yield the desired results.
-
-Furthermore, in the context of Kubernetes, the yaml manifests contain entries like "Kind: Pod", which is an entirely different concept.
-
-Grrr.
 
