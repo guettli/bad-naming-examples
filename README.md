@@ -10,6 +10,22 @@ Good names are simply obvious and clear. They blend in seamlessly since the name
 
 That's why I've listed some examples of bad naming (in the context of software development) here.
 
+# General
+
+# test
+
+To give something the name "test" is allways a bad idea.
+
+Later you want to search for the string in your configuration, your code or your logs .... and then you are lost.
+
+In non-trivial projects the term "test" will appear thousand times.
+
+Using the prefix "test" is fine, but please add some more charaters!
+
+Example: "test-of-reconnect"
+
+If you search for that string, then you won't get duplicate results.
+
 # Product Names
 
 ## pre-commit.com
