@@ -12,19 +12,19 @@ That's why I've listed some examples of bad naming (in the context of software d
 
 # General
 
-# test
+## test
 
-To give something the name "test" is allways a bad idea.
+Naming something just "test" is always a bad idea.
 
-Later you want to search for the string in your configuration, your code or your logs .... and then you are lost.
+Later, when you want to search for the string in your configuration, your code, or your logs, you'll be lost.
 
-In non-trivial projects the term "test" will appear thousand times.
+In non-trivial projects, the term "test" will appear thousands of times.
 
-Using the prefix "test" is fine, but please add some more charaters!
+Using the prefix "test" is fine, but please add some more characters!
 
 Example: "test-of-reconnect"
 
-If you search for that string, then you won't get duplicate results.
+If you search for that string, you won't get duplicate results.
 
 # Product Names
 
@@ -40,19 +40,16 @@ For most, "pre-commit" primarily refers to the **Git** pre-commit hooks.
 
 [kind](https://kind.sigs.k8s.io/) stands for "Kubernetes in Docker".
 
-
 Its name can be misleading due to its generality. Searching for "kind foo" might not yield the desired results.
 
 Furthermore, in the context of Kubernetes, the yaml manifests contain entries like "Kind: Pod", which is an entirely different concept.
 
 Grrr.
 
-
 # Related
 
-* [Thomas WOL: Working out Loud](https://github.com/guettli/wol)
+* [Thomas WOL: Working Out Loud](https://github.com/guettli/wol)
 
 # Feedback
 
 I love feedback and I love to hear from you. Just create an issue and tell me what's on your mind.
-
