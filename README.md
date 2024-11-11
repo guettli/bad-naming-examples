@@ -26,7 +26,7 @@ Example: "test-of-reconnect"
 
 If you search for that string, you won't get duplicate results.
 
-# Product Names
+# Some explames
 
 ## pre-commit.com
 
@@ -45,6 +45,13 @@ Its name can be misleading due to its generality. Searching for "kind foo" might
 Furthermore, in the context of Kubernetes, the yaml manifests contain entries like "Kind: Pod", which is an entirely different concept.
 
 Grrr.
+
+## Longhorn: Node
+
+Kubernetes uses the term "node". Longhorn uses the same term for their CustomResourceDefinitionn for Kubernetes nodes which gets used by Longhorn. Technically there is no issue, since
+Kubernetes uses "Group Version Kind" to address resources, but for humans it can be confusing.
+
+Longhorn should have used a different term.
 
 # Related
 
