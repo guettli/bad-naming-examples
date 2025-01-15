@@ -62,13 +62,13 @@ Longhorn should have used a different term.
           fetch-depth: 0
 ```
 
-For me `0` means nothing, or at least only little.
+For me `0` means nothing, or at least only little. 
 
 Upstream docs:
 
 >  0 indicates all history for all branches and tags.
 
-This is confusing.
+This is confusing. I guess many people think "Checkout zero history", when they read that....
 
 # Related
 
