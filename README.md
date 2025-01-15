@@ -53,6 +53,23 @@ Kubernetes uses "Group Version Kind" to address resources, but for humans it can
 
 Longhorn should have used a different term.
 
+## Github action: fetch-depth: 0
+
+```yaml
+      - name: Checkout repository
+        uses: actions/checkout@latest
+        with:
+          fetch-depth: 0
+```
+
+For me `0` means nothing, or at least only little.
+
+Upstream docs:
+
+>  0 indicates all history for all branches and tags.
+
+This is confusing.
+
 # Related
 
 * [Thomas WOL: Working Out Loud](https://github.com/guettli/wol)
