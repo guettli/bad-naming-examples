@@ -26,7 +26,7 @@ Example: "test-of-reconnect"
 
 If you search for that string, you won't get duplicate results.
 
-# Some explames
+# Some expamles
 
 ## pre-commit.com
 
@@ -52,6 +52,14 @@ Kubernetes uses the term "node". Longhorn uses the same term for their CustomRes
 Kubernetes uses "Group Version Kind" to address resources, but for humans it can be confusing.
 
 Longhorn should have used a different term.
+
+## TOKEN
+
+If write a tool which connects to some API and it needs a token, it is common to read that from an environment variable.
+
+Do not call that env var TOKEN. This is too generic. Sooner or later your application might connect to a second service.
+
+If you need a token to connect to service Foo, then call it FOO_TOKEN.
 
 ## Github action: fetch-depth: 0
 
