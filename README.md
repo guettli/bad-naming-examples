@@ -78,6 +78,12 @@ Upstream docs:
 
 This is confusing. I guess many people think "Checkout zero history", when they read that....
 
+# Some Link Checker: retry_wait_time
+
+Time... what is that?
+
+Easier to understand: `retry_wait_seconds`.
+
 # Related
 
 * [Thomas WOL: Working Out Loud](https://github.com/guettli/wol)
